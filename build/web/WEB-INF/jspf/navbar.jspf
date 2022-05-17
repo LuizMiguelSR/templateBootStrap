@@ -1,0 +1,87 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<!-- NavBar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
+    <div class="container mx-auto">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Institucional 
+                    </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-header"><b>Quem Somos</b></a>
+                            <a class="dropdown-item" href="#">Sobre a Fatec</a>
+                            <a class="dropdown-item" href="#">Regimento e Regulamento</a><hr/>
+                            <a class="dropdown-header"><b>Departamentos</b></a>
+                            <a class="dropdown-item" href="#">Direção</a>
+                            <a class="dropdown-item" href="#">Coordenação de Cursos</a>
+                            <a class="dropdown-item" href="#">Diretoria de Serviços Acadêmicos</a>
+                            <a class="dropdown-item" href="#">Diretoria de Serviços Administrativos</a>
+                            <a class="dropdown-item" href="#">Centro de Informatica</a>
+                            <a class="dropdown-item" href="#">Biblioteca</a><hr/>
+                            <a class="dropdown-item" href="#">CIPA</a>
+                            <a class="dropdown-item" href="#">Horários de Funcionamento</a>
+                        </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Cursos 
+                    </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Análise e Desenvolvimento de Sistemas</a>
+                            <a class="dropdown-item" href="#">Comércio Exterior</a>
+                            <a class="dropdown-item" href="#">Gestão Empresarial</a>
+                            <a class="dropdown-item" href="#">Processos Químicos</a>
+                        </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Secretaria 
+                    </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Informações Gerais</a>
+                            <a class="dropdown-item" href="#">Documentos e Modelos</a>
+                            <a class="dropdown-item" href="#">Perguntas Frequentes</a>
+                            <a class="dropdown-item" href="#">Requerimentos</a>
+                        </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Calendário/Aulas 
+                    </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Horários Aulas</a>
+                            <a class="dropdown-item" href="#">Calendário Acadêmico</a>
+                            <a class="dropdown-item" href="#">Professores</a>
+                        </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Sites 
+                    </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="http://www.fatecpg.com.br/tic/default.aspx" target="_blank">DTI</a>
+                            <a class="dropdown-item" href="https://edu.google.com/" target="_blank">Google For Education</a>
+                        </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://fatecpg.edu.br/revista" target="_blank">Revista </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Núcleos de Pesquisa </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Vitrine de Negócios </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+ 
+</nav>
