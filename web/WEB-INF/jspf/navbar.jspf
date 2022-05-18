@@ -2,7 +2,7 @@
 <%@ page pageEncoding="UTF-8" %>
 <!-- NavBar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
-    <div class="container mx-auto">
+    <div class="container">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -15,7 +15,7 @@
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Institucional 
                     </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <div class="dropdown-menu shadow" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-header"><b>Quem Somos</b></a>
                             <a class="dropdown-item" href="#">Sobre a Fatec</a>
                             <a class="dropdown-item" href="#">Regimento e Regulamento</a><hr/>
@@ -34,7 +34,7 @@
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Cursos 
                     </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <div class="dropdown-menu shadow" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="#">Análise e Desenvolvimento de Sistemas</a>
                             <a class="dropdown-item" href="#">Comércio Exterior</a>
                             <a class="dropdown-item" href="#">Gestão Empresarial</a>
@@ -45,7 +45,7 @@
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Secretaria 
                     </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <div class="dropdown-menu shadow" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="#">Informações Gerais</a>
                             <a class="dropdown-item" href="#">Documentos e Modelos</a>
                             <a class="dropdown-item" href="#">Perguntas Frequentes</a>
@@ -56,7 +56,7 @@
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Calendário/Aulas 
                     </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <div class="dropdown-menu shadow" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="#">Horários Aulas</a>
                             <a class="dropdown-item" href="#">Calendário Acadêmico</a>
                             <a class="dropdown-item" href="#">Professores</a>
@@ -66,7 +66,7 @@
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Sites 
                     </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <div class="dropdown-menu shadow" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="http://www.fatecpg.com.br/tic/default.aspx" target="_blank">DTI</a>
                             <a class="dropdown-item" href="https://edu.google.com/" target="_blank">Google For Education</a>
                         </div>
@@ -81,7 +81,20 @@
                     <a class="nav-link" href="#">Vitrine de Negócios </a>
                 </li>
             </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" data-toggle="dropdown" class="dropdown-toggle">Área exclusiva &nbsp;<i class="fa fa-user fa-fw" aria-hidden="true"></i></a>
+                    <ul class="dropdown-menu">
+                        <li role="presentation" class="dropdown-header">Acesso restrito</li>
+                        <li><a href="https://siga.cps.sp.gov.br/aluno/login.aspx" target="_blank"><i class="fa fa-lock fa-fw" aria-hidden="true"></i>&nbsp; SIGA</a></li>
+                        <li><a href="http://www.moodlefatecpg.com.br/" target="_blank"><i class="fa fa-lock fa-fw" aria-hidden="true"></i>&nbsp; Moodle</a></li>
+                        <li><a href="#"><i class="fa fa-lock fa-fw" aria-hidden="true"></i>&nbsp; E-mail Fatec</a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li role="presentation" class="dropdown-header">Aluno</li>
+                        <li><a data-toggle="modal" data-target="#modalUser" >Login</a></li>
+                    </ul>
+                </li>
+            </ul>
         </div>
-    </div>
- 
+    </div> 
 </nav>
