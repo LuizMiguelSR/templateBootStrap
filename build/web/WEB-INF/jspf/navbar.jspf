@@ -69,10 +69,8 @@
                         <div class="dropdown-menu shadow" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="http://www.fatecpg.com.br/tic/default.aspx" target="_blank">DTI</a>
                             <a class="dropdown-item" href="https://edu.google.com/" target="_blank">Google For Education</a>
+                            <a class="nav-link" href="https://fatecpg.edu.br/revista" target="_blank">Revista </a>
                         </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://fatecpg.edu.br/revista" target="_blank">Revista </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Núcleos de Pesquisa </a>
@@ -80,19 +78,17 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Vitrine de Negócios </a>
                 </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li class="dropdown">
-                    <a href="#" data-toggle="dropdown" class="dropdown-toggle">Área exclusiva &nbsp;<i class="fa fa-user fa-fw" aria-hidden="true"></i></a>
-                    <ul class="dropdown-menu">
-                        <li role="presentation" class="dropdown-header">Acesso restrito</li>
-                        <li><a href="https://siga.cps.sp.gov.br/aluno/login.aspx" target="_blank"><i class="fa fa-lock fa-fw" aria-hidden="true"></i>&nbsp; SIGA</a></li>
-                        <li><a href="http://www.moodlefatecpg.com.br/" target="_blank"><i class="fa fa-lock fa-fw" aria-hidden="true"></i>&nbsp; Moodle</a></li>
-                        <li><a href="#"><i class="fa fa-lock fa-fw" aria-hidden="true"></i>&nbsp; E-mail Fatec</a></li>
-                        <li role="presentation" class="divider"></li>
-                        <li role="presentation" class="dropdown-header">Aluno</li>
-                        <li><a data-toggle="modal" data-target="#modalUser" >Login</a></li>
-                    </ul>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Área Exclusiva 
+                    </a>
+                    <div class="dropdown-menu shadow" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-header mb-1"><b>Acesso Restrito</b></a>
+                        <a class="dropdown-item" href="#">SIGA</a>
+                        <a class="dropdown-item" href="#">MODLE</a><hr/>
+                        <a class="dropdown-header"><b>Acesso Interno</b></a>
+                        <a class="dropdown-item" href="#">Login</a>
+                    </div>
                 </li>
             </ul>
         </div>

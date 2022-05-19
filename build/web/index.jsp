@@ -82,8 +82,9 @@
             <hr/>
           
             <div class="container">
+                <h3 class="text-center"><span class="material-icons md-48">newspaper</span> Notícias e Eventos</h3>
                 <!-- Exemplo de linha de colunas -->
-                <div class="row mb-2">
+                <div class="row mb-2">                    
                     <div class="col-md-6">
                         <div class="card flex-md-row mb-4 shadow-sm h-md-250">
                         <div class="card-body d-flex flex-column align-items-start">
@@ -145,13 +146,10 @@
                 </div>
             </div>
         </main>
-        
-        <hr/>
-        
-    <footer class="container">
-      <p>&copy; Companhia 2017-2018</p>
-    </footer>
-        
+               
     </body>
+    
+    <%@include file="WEB-INF/jspf/footer.jspf" %>
+    
 </html>
 

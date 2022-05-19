@@ -1,0 +1,36 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<!-- Footer -->
+<footer class="footer-dark bg-dark shadow">
+    <div class="container">
+        <div class="row text-light">
+        <div class="col mt-4 text-center">
+            <h5><span class="material-icons">room</span> Endereço</h5>
+            <address>Praça 19 de janeiro, 144<br>Boqueirão — Praia Grande-SP,<br>CEP: 11700-100.</address>
+            <h5><span class="material-icons">map</span> Localização</h5><p><a href="https://goo.gl/maps/Hd21vCyH4uHDEMb49" target="_blank"> mostrar mapa</a></p>
+        </div>
+        <div class="col mt-4 text-center">            
+            <h5><span class="material-icons">call</span>  Contato</h5>
+            <p class="lead">(13) 3591-1303<br>(13) 3591-6968</p>
+            <h5><span class="material-icons">alternate_email</span>  Email</h5>            
+            <p><a href="#">mail@contato.edu.br</a></p>
+        </div>
+            <div class="col mt-4 text-center">
+            <h5><span class="material-icons">thumb_up_alt</span> Redes Sociais</h5>
+                <ul class="nav nav-pills">
+                    <li><a href="#"><i class="twitter"></i>&nbsp; Twitter</a></li>
+                    <li><a href="#"><i class="fa fa-facebook-official fa-lg"></i>&nbsp; Facebook</a></li>
+                    <li><a href="#"><i class="fa fa-youtube fa-lg"></i>&nbsp; Youtube</a></li>
+                    <li><a href="#"><i class="fa fa-whatsapp fa-lg"></i>&nbsp; WhatsApp</a></li>
+                    <li><a href="#"><i class="fa fa-instagram fa-lg"></i>&nbsp; Instagram</a></li>
+                    <li><a href="#"><i class="fa fa-linkedin fa-lg"></i>&nbsp; LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr style="border-color: white"/>
+        <div class="text-center text-light mt-3">
+            <p>&copy; 2022 Fatec Praia Grande.</p>
+            <p>Desenvolvido por <a href="#">[Nome do Desenvolvedor]</a>.</p>
+        </div>
+    </div>
+</footer>
