@@ -1,7 +1,8 @@
 <%-- any content can be specified here e.g.: --%>
 <%@ page pageEncoding="UTF-8" %>
 <!-- NavBar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
+
+<nav class="navbar navbar-expand-lg sticky-top shadow" style="background-color: #B20000">
     <div class="container">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
             <span class="navbar-toggler-icon"></span>
@@ -69,7 +70,7 @@
                         <div class="dropdown-menu shadow" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="http://www.fatecpg.com.br/tic/default.aspx" target="_blank">DTI</a>
                             <a class="dropdown-item" href="https://edu.google.com/" target="_blank">Google For Education</a>
-                            <a class="nav-link" href="https://fatecpg.edu.br/revista" target="_blank">Revista </a>
+                            <a class="dropdown-item" href="https://fatecpg.edu.br/revista" target="_blank">Revista </a>
                         </div>
                 </li>
                 <li class="nav-item">
@@ -83,11 +84,11 @@
                     Área Exclusiva 
                     </a>
                     <div class="dropdown-menu shadow" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-header mb-1"><b>Acesso Restrito</b></a>
+                        <a class="dropdown-header"><b>Acesso Restrito</b></a>
                         <a class="dropdown-item" href="#">SIGA</a>
                         <a class="dropdown-item" href="#">MODLE</a><hr/>
                         <a class="dropdown-header"><b>Acesso Interno</b></a>
-                        <a class="dropdown-item" href="#">Login</a>
+                        <a class="dropdown-item" data-toggle="modal" data-target="#loginModal"href="#">Login</a>
                     </div>
                 </li>
             </ul>

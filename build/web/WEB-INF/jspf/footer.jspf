@@ -1,7 +1,7 @@
 <%-- any content can be specified here e.g.: --%>
 <%@ page pageEncoding="UTF-8" %>
 <!-- Footer -->
-<footer class="footer-dark bg-dark shadow">
+<footer class="footer" style="background-color: #B20000">
     <div class="container">
         <div class="row text-light">
         <div class="col mt-4 text-center">
@@ -27,10 +27,13 @@
                 </ul>
             </div>
         </div>
+    <div class="container" >
         <hr style="border-color: white"/>
         <div class="text-center text-light mt-3">
             <p>&copy; 2022 Fatec Praia Grande.</p>
-            <p>Desenvolvido por <a href="#">[Nome do Desenvolvedor]</a>.</p>
+            <p>Desenvolvido por <a href="#">[Nome do Desenvolvedor]</a>.</p><br>
         </div>
+    </div>
+
     </div>
 </footer>

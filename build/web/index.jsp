@@ -41,12 +41,44 @@
         
         <main role="main">
             <%@include file="WEB-INF/jspf/navbar.jspf" %>
+            
+            <!-- Modal Login -->
+            <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Realizar Login</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                    <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Usuário</label>
+                            <input type="email" class="form-control" id="recipient-name" aria-describedby="emailHelp" placeholder="Seu email">
+                            <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="recipient-text" class="col-form-label">Senha:</label>
+                            <input type="password" class="form-control" id="recipient-pas" placeholder="Senha">
+                        </div>
+                    </form>
+                    </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            <button type="submit" class="btn btn-secondary" style="background-color: #931914; border-color: #931914">Entrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
             <!-- Principal jumbotron, para a principal mensagem de marketing ou call to action -->
             <div class="jumbotron">
                 <div class="container">
                     <h1 class="display-3">Olá, mundo!</h1>
                     <p>Este é um template para um simples marketing ou website informacional. Ele inclui um callout grande (denominado jumbotron) e três conteúdos adicionais. Use-o como um ponto de partida para algo mais peculiar.</p>
-                    <p><a class="btn btn-primary btn-lg" href="#" role="button">Saiba mais &raquo;</a></p>
+                    <p><a class="btn btn-primary btn-lg" style="background-color: #931914; border-color: #931914" href="#" role="button">Saiba mais &raquo;</a></p>
                 </div>
             </div>
             <div class="container marketing">
@@ -56,25 +88,25 @@
                         <img class="rounded-circle shadow" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
                         <h4>Análise e Desenvolvimento de Sistemas</h4>
                         <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                        <p><a class="btn btn-secondary" style="background-color: #931914; border-color: #931914" href="#" role="button">View details &raquo;</a></p>
                     </div><!-- /.col-lg-3 -->
                     <div class="col-lg-3">
                         <img class="rounded-circle shadow" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
                         <h4 class="text-center">Comércio Exterior</h4>
                         <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                        <p><a class="btn btn-secondary" style="background-color: #931914; border-color: #931914" href="#" role="button">View details &raquo;</a></p>
                     </div><!-- /.col-lg-3 -->
                     <div class="col-lg-3">
                         <img class="rounded-circle shadow" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
                         <h4 class="text-center">Gestão Empresarial</h4>
                         <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                        <p><a class="btn btn-secondary" style="background-color: #931914; border-color: #931914" href="#" role="button">View details &raquo;</a></p>
                     </div><!-- /.col-lg-3 -->
                     <div class="col-lg-3">
                         <img class="rounded-circle shadow" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
                         <h4>Processos Químicos</h4>
                         <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                        <p><a class="btn btn-secondary" style="background-color: #931914; border-color: #931914" href="#" role="button">View details &raquo;</a></p>
                     </div><!-- /.col-lg-3 -->
                 </div><!-- /.row -->
             </div>
@@ -82,7 +114,7 @@
             <hr/>
           
             <div class="container">
-                <h3 class="text-center"><span class="material-icons md-48">newspaper</span> Notícias e Eventos</h3>
+                <h3 class="text-center m-4"><span class="material-icons md-48">newspaper</span> Notícias e Eventos</h3>
                 <!-- Exemplo de linha de colunas -->
                 <div class="row mb-2">                    
                     <div class="col-md-6">
