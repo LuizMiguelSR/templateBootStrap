@@ -9,5 +9,12 @@
             <file>file:/C:/Users/Luiz/Documents/NetBeansProjects/templateBootStrap/web/index.jsp</file>
             <file>file:/C:/Users/Luiz/Documents/NetBeansProjects/templateBootStrap/web/WEB-INF/jspf/css.jspf</file>
         </group>
+        <group name="SiteFatec">
+            <file>file:/media/luiz/Disco%20Local/Meus_Documentos/ArquivosAcademicos/Projetos/templateBootStrap/web/WEB-INF/jspf/footer.jspf</file>
+            <file>file:/media/luiz/Disco%20Local/Meus_Documentos/ArquivosAcademicos/Projetos/templateBootStrap/web/WEB-INF/jspf/css.jspf</file>
+            <file>file:/media/luiz/Disco%20Local/Meus_Documentos/ArquivosAcademicos/Projetos/templateBootStrap/web/index.jsp</file>
+            <file>file:/media/luiz/Disco%20Local/Meus_Documentos/ArquivosAcademicos/Projetos/templateBootStrap/web/WEB-INF/jspf/navbar.jspf</file>
+            <file>file:/media/luiz/Disco%20Local/Meus_Documentos/ArquivosAcademicos/Projetos/templateBootStrap/web/WEB-INF/jspf/scripts.jspf</file>
+        </group>
     </open-files>
 </project-private>
