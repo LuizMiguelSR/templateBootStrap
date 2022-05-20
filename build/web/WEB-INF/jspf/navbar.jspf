@@ -33,17 +33,6 @@
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Cursos 
-                    </a>
-                        <div class="dropdown-menu shadow" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Análise e Desenvolvimento de Sistemas</a>
-                            <a class="dropdown-item" href="#">Comércio Exterior</a>
-                            <a class="dropdown-item" href="#">Gestão Empresarial</a>
-                            <a class="dropdown-item" href="#">Processos Químicos</a>
-                        </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Secretaria 
                     </a>
                         <div class="dropdown-menu shadow" aria-labelledby="navbarDropdownMenuLink">
@@ -69,9 +58,11 @@
                     </a>
                         <div class="dropdown-menu shadow" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="http://www.fatecpg.com.br/tic/default.aspx" target="_blank">DTI</a>
-                            <a class="dropdown-item" href="https://edu.google.com/" target="_blank">Google For Education</a>
-                            <a class="dropdown-item" href="https://fatecpg.edu.br/revista" target="_blank">Revista </a>
+                            <a class="dropdown-item" href="https://edu.google.com/" target="_blank">Google For Education</a>                            
                         </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://fatecpg.edu.br/revista" target="_blank">Revista </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Núcleos de Pesquisa </a>
@@ -79,16 +70,34 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Vitrine de Negócios </a>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown justify-content-end">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Área Exclusiva 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 20">
+                            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                        </svg>
+                        Área Exclusiva 
                     </a>
                     <div class="dropdown-menu shadow" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-header"><b>Acesso Restrito</b></a>
-                        <a class="dropdown-item" href="#">SIGA</a>
-                        <a class="dropdown-item" href="#">MODLE</a><hr/>
+                        <a class="dropdown-item" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 20">
+                                <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/>
+                            </svg> 
+                             Siga
+                        </a>
+                        <a class="dropdown-item" href="#"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 20">
+                                <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/>
+                            </svg> 
+                             Modle
+                        </a><hr/>
                         <a class="dropdown-header"><b>Acesso Interno</b></a>
-                        <a class="dropdown-item" data-toggle="modal" data-target="#loginModal"href="#">Login</a>
+                        <a class="dropdown-item" data-toggle="modal" data-target="#loginModal"href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                            </svg>
+                            Login
+                        </a>
                     </div>
                 </li>
             </ul>
